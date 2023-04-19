@@ -16,10 +16,6 @@ namespace PII_Game_Of_Life
             this.gameBoard = Lector.leer();
         }
 
-       public bool[,] devolverTablero()
-        {
-            return this.gameBoard;
-        }
 
         public void NextGeneration()
         {
