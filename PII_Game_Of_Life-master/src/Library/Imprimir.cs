@@ -7,7 +7,11 @@ namespace PII_Game_Of_Life
     {
         public static void PrintString(StringBuilder s)
         {
+            Console.WriteLine("\n");
             Console.WriteLine(s.ToString());
+            Console.WriteLine("\n");
+            Thread.Sleep(1000);
+            
         }
     }
 }

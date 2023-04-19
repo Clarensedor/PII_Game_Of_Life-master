@@ -5,7 +5,7 @@ namespace PII_Game_Of_Life
 {
     public class GameLogic
     {
-        public bool[,] NextGeneration(bool[,] gameBoard)
+        public static bool[,] NextGeneration(bool[,] gameBoard)
         {
             int boardWidth = Board.width;
             int boardHeight = Board.heigth;

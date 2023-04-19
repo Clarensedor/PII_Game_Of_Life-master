@@ -8,6 +8,7 @@ namespace PII_Game_Of_Life
         {
             Board gameBoard = new Board();
             BuildText.Printing(gameBoard);
+
         }
     }
 }

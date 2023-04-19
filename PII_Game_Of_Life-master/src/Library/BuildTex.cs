@@ -37,7 +37,7 @@ namespace PII_Game_Of_Life
                     s.Append("\n");
                 }
                 Print.PrintString(s);
-                gameBoard.NextGeneration();
+                b = GameLogic.NextGeneration(b);
             }
         }
     }
